@@ -1,7 +1,7 @@
-#Yerlan Nurlibayev
+# Yerlan Nurlibayev
 ====
 
-###Contacts
+### Contacts
 * **Location**: Nursultan (Astana), Kazakhstan
 * **Phone**: +7 701 8001120
 * **Email**: *ynurlibayev@gmail.com*
