@@ -1,15 +1,13 @@
-# Yerlan Nurlibayev
+# Yerlan Nurlibayev  
 
-====
 
-### Contacts
+### Contacts  
 * **Location**: Nursultan (Astana), Kazakhstan
 * **Phone**: +7 701 8001120
 * **Email**: *ynurlibayev@gmail.com*
 
-====
 
-### About me
+### About me  
 I work as **Product Owner** and **Business Analytic** in a scrum team. I have a lot practice at organizing team and building a structure of the project. 
 I want to be able code by myself. I really want to develop hard skills.
 
