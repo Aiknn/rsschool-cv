@@ -10,20 +10,36 @@
 ### About me  
 I work as **Product Owner** and **Business Analytic** in a scrum team. I have a lot practice at organizing team and building a structure of the project. 
 I want to be able code by myself. I really want to develop hard skills.
+I spent 2 years on selfstudy and now ready for new trip as a freelancer or half-time.
 
 
-Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-Примеры кода
-Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
-Образование (включая пройденные курсы и тренинги)
-Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+### Skills
+* HTML, CSS, JS - 6/10
+* Java Spring - 6/10
+* MySql, Postgres - 7/10
 
 
+### Experiance
+* Bank manager - 10 years
+* Product owner (scrum team) - 5 years
+
+
+### Education
+* MSc in Economics (Glasgow University)
+* BA in Banking and Finance (Almaty Economic University)
+
+### Languages
+* English - advanced
+* Kazakh - native
+* Russian - advanced 
+
+
+### My favorite code
 ```javascript
-const func = (num) => {
-  if (num > 0) {
-    return num - 1;
-  }
-  return num + 1;
-};
+function factorial(num) {
+    if (num < 0) {
+        throw new Error("num must not be negative");
+    }
+    return num <= 1 ? 1 : num * factorial(num - 1);
+}
 ```
