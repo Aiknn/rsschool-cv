@@ -1,61 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yerlan Nurlibayev CV</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#about-me">About me</a></li>
-                <li class="nav-item"><a href="#contacts">Contacts</a></li>
-                <li class="nav-item"><a href="#skills">Skills</a></li>
-                <li class="nav-item"><a href="#projects">Projects</a></li>
-                <li class="nav-item"><a href="#code">Code</a></li>
-                <li class="nav-item"><a href="#education">Education</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about-me">About me</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#code">Code</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <h1>Yerlan Nurlibayev</h1>
+      <div class="wrapper">
+        <div class="photo">
+            <img
+          src="images/my_photo.jpg"
+          width="20%"
+          height="20%"
+          alt="Yerlan Nurlibayev's photo"
+        />
+        </div>
+        <div class="main-info">
+            <h1>Yerlan Nurlibayev</h1>
         <h2>Front End Developer</h2>
-        <h2>дб 1 тег h1 + несколько h2</h2>
-        на странице СV есть фото или аватарка автора, пропорции изображения не искажены, у изображения есть атрибут.
-        при уменьшении масштаба страницы браузера вёрстка размещается по центру по горизонтали, а не сдвигается в сторону
-        <img src="images/my_photo.jpg" width="20%" height="20%" alt="Yerlan Nurlibayev's photo">
-        <section id="about-me">
-            краткую информацию о себе (ваша цель и приоритеты)
-        </section>
-        <section id="contacts">
-            навигация, контакты для связи и перечень навыков оформлены в виде списка ul > li или ul > li > a
-        </section>
-        <section id="skills">
-            навигация, контакты для связи и перечень навыков оформлены в виде списка ul > li или ul > li > a
-        </section>
-        <section id="projects">
-            перечень выполненных учебных проектов со ссылками на исходный код или страницу приложения +5
-            для выполненных проектов добавьте название проекта, ссылку на код проекта на гитхабе или ссылку на страницу проекта.
-            Если выполненных проектов пока нет, в качестве первого проек	та укажите само CV
-            
-        </section>
-        <section id="code">
-            Код добавляется при помощи символов и тегов, а не картинкой 
-            в качестве примера кода приведите решение задачи с сайта Codewars.
-        </section>
-        <section id="education">
-            информацию об образовании и уровне английского
-        </section>
+        <p>контакты для связи и перечень навыков оформлены в виде
+            списка ul > li или ul > li > a</p>
+        </div>
+        <div class="about-me-header">
+            <h2>About me</h2>
+        </div>
+        <div class="about-me-info">
+            <section id="about-me">
+                краткую информацию о себе (ваша цель и приоритеты)
+              </section>
+        </div>
+        
+        <div class="skills-header">
+          <h2>Skills</h2>  
+        </div>
+
+        <div class="skills-info">
+            <section id="skills">
+                навигация, контакты для связи и перечень навыков оформлены в виде
+                списка ul > li или ul > li > a
+              </section>
+        </div>
+        
+        <div class="projects-header">
+            <h2>Projects</h2>
+        </div>
+        <div class="projects-info">
+            <section id="projects">
+                перечень выполненных учебных проектов со ссылками на исходный код или
+                страницу приложения +5 для выполненных проектов добавьте название
+                проекта, ссылку на код проекта на гитхабе или ссылку на страницу
+                проекта. Если выполненных проектов пока нет, в качестве первого проек
+                та укажите само CV
+              </section>
+        </div>
+        <div class="code-header">
+           <h2>Header</h2> 
+        </div>
+        <div class="code-info">
+            <section id="code">
+                Код добавляется при помощи символов и тегов, а не картинкой в качестве
+                примера кода приведите решение задачи с сайта Codewars.
+              </section>
+        </div>
+        <div class="education-header">
+            <h2>Education</h2>
+        </div>
+        <div class="education-info">
+            <section id="education">
+                информацию об образовании 
+              </section>  
+        </div>
+        <div class="languages-header">
+            <h2>Languages</h2>
+        </div>
+        <div class="languages-info">
+            <section id="languages">
+                информацию об уровне английского
+              </section>  
+        </div>
+        
+      </div>
     </main>
     <footer>
-        <ul class="footer-item-list">
-            <li class="footer-item"><a href="https://github.com/Aiknn">My GitHub</a></li>
-            <li class="footer-item"><a href="#">2022</a></li>
-            <li class="footer-item"><a href="https://rs.school/js/"><img src="images/rs_school_js.svg" class="filter-orange" width="20%" height="20%" alt="rs school logo"></a></li>
-        </ul>
+      <ul class="footer-item-list">
+        <li class="footer-item">
+          <a href="https://github.com/Aiknn">My GitHub</a>
+        </li>
+        <li class="footer-item"><a href="#">2022</a></li>
+        <li class="footer-item">
+          <a href="https://rs.school/js/"
+            ><img
+              src="images/rs_school_js.svg"
+              class="filter-orange"
+              width="20%"
+              height="20%"
+              alt="rs school logo"
+          /></a>
+        </li>
+      </ul>
     </footer>
-</body>
+  </body>
 </html>
