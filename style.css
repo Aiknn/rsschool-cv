@@ -17,8 +17,8 @@ p {
     font-size: 18px;
     line-height: 150%;
 }
-code {
-    background-color: #3E94B2;
+pre {
+    background-color: silver;
 }
 @media(min-width: 1200px){
     body{
