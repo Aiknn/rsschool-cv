@@ -7,6 +7,10 @@ h2 {
     color: #18254F;
     font-style: oblique;
 }
+p {
+    font-size: 18px;
+    line-height: 150%;
+}
 code {
     background-color: #3E94B2;
 }
@@ -62,6 +66,13 @@ main {
     margin: 20px;
     padding: 20px;
     width: 70%;
+}
+.orange-color {
+    color: #FF9900;
+    font-weight: bold;
+}
+#about-me {
+    margin-right: 100px;
 }
 footer {
     width: 100%;
