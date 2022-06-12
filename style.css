@@ -125,4 +125,8 @@ footer {
 .filter-orange{
     filter: invert(75%) sepia(50%) saturate(5297%) hue-rotate(358deg) brightness(103%) contrast(106%);
 }
+.rs-school {
+    width: 20%;
+    height: 20%;
+}
 
