@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yerlan Nurlibayev CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about-me">About me</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#code">Code</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="left-block">
+          <img src="images/my_photo.jpg" alt="Yerlan Nurlibayev's photo" class="my-photo">
+        </div>
+        <div class="right-block">
+          <h1>Yerlan Nurlibayev</h1>
+          <h2 class="orange-color">Front-end developer (beginner)</h2>
+          <ul class="h-line">
+            <li><b>Location:</b><br />Nursultan, Kazakhstan</li>
+            <li><b>Phone number:</b><br />+7 701 8001120</li>
+            <li><b>Email:</b><br />ynurlibayev@gmail.com</li>
+          </ul>
+        </div>
+        <div class="left-block">
+          <h2>About me</h2>
+        </div>
+        <div class="right-block" id="about-me">
+            <p>
+              I work as <span class="orange-color">Product Owner</span> and
+              <span class="orange-color">Business Analyst</span> in a scrum
+              team. I have a lot practice at organizing team and building a
+              structure of the project. Now I want to develop as a
+              <span class="orange-color">Full-stack Web Developer</span>. I've
+              spent 2 years on self-study (udemy, you-tube, books) and going for
+              a new trip as a developer. <br />
+              Hello, world &#128515;
+            </p>
+        </div>
+        <div class="left-block">
+          <h2>Skills</h2>
+        </div>
+        <div class="right-block" id="skills">
+            <ul>
+              <li>HTML, CSS - 8/10</li>
+              <li>JS (front) - 5/10</li>
+              <li>React - 2/10</li>
+              <li>Java Spring - 7/10</li>
+              <li>MySql, Postgres - 7/10</li>
+              <li>AWS, Heroku - 6/10</li>
+              <li>Jira, Confluence - 9/10</li>
+            </ul>
+        </div>
+        <div class="left-block">
+          <h2>Projects</h2>
+        </div>
+        <div class="right-block" id="projects">
+            <p>
+              Someday this part will be full of outstanding projects &#128640;,
+              but now they are few and simple &#128515;
+            </p>
+            <ul>
+              <li>
+                This CV: used
+                <span class="orange-color">HTML + CSS + GitHub Pages</span>
+              </li>
+              <li>
+                Expense <a href="https://onclean.kz/">calculator</a>: used
+                <span class="orange-color"
+                  >React + CSS + domain deployment</span
+                >
+              </li>
+              <li>
+                Basic bank names
+                <a href="https://ipoteka-springboot.herokuapp.com/api/v1/banks"
+                  >CRUD API</a
+                ><span class="info">(wait 1 min to wake up Heroku)</span>: used
+                <span class="orange-color">Spring Boot + Heroku</span>
+              </li>
+            </ul>
+        </div>
+        <div class="left-block">
+          <h2>Code</h2>
+        </div>
+        <div class="right-block" id="code">
+            <pre>
+                <code>
+    function likes(names) {
+        names = names || [];
+        switch(names.length){
+            case 0: return "no one likes this";
+            case 1: return `${names[0]} likes this`;
+            case 2: return `${names[0]} and ${names[1]} like this`;
+            case 3: return `${names[0]}, ${names[1]} and ${names[2]} like this`
+            default: return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
+        }
+        }     </code>
+            </pre>
+        </div>
+        <div class="left-block">
+          <h2>Education</h2>
+        </div>
+        <div class="right-block" id="education">
+            <p>I love learning new things. This are my <span class="orange-color">favorites</span>: </p>
+            <ul>
+                <li>CS50 lectures</li>
+                <li>FreeCodeCamp</li>
+                <li>Udemy:
+                    <ul>
+                        <li><a href="https://www.udemy.com/share/101Way3@Nv-LvlKIRav4dWj6Jh8D7JalXBl6ub7Mr9U8vhwoCSbzSN7p-ZFSeA342k1H4P6l/">React</a></li>
+                        <li><a href="https://www.udemy.com/share/101WHS3@xQq80Ghc_h_AZ5WN23xt6VoXnFDuA0UM7Ehh5j7hEcJ-jRozXmXhasaiWa7WW2hi/">Spring Boot</a></li>
+                        <li><a href="https://www.udemy.com/share/101W923@VeH28cqN0Cqdc03wpiHHa-WUuGA0x5VZ2v5XgEU_c2qeLGsKfXlGdSIhGRxAPrQ-/">Full-stack web</a></li>
+                    </ul>
+                </li>
+                <li>MSc in Finance and Banking @University of Glasgow <span class="info">(seems useless here)</span></li>
+            </ul>
+        </div>
+        <div class="left-block">
+          <h2>Languages</h2>
+        </div>
+        <div class="right-block" id="languages">
+            <ul>
+                <li>English - B1</li>
+                <li> Russian - C2</li>
+                <li>Kazakh - C2</li>
+            </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul class="footer-item-list">
+        <li class="footer-item">
+          <a href="https://github.com/Aiknn">My GitHub</a>
+        </li>
+        <li class="footer-item"><a>2022</a></li>
+        <li class="footer-item">
+          <a href="https://rs.school/js/">
+            <img src="images/rs_school_js.svg" class="filter-orange rs-school" alt="rs school logo"/>
+        </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
